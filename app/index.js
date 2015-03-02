@@ -41,6 +41,10 @@ module.exports = yeoman.generators.Base.extend({
   copyFiles: function() {
     this.copy('_app.js', 'resource/js/app.js');
     this.copy('_router.js', 'resource/js/router.js');
+    this.copy('jquery.js', 'resource/js/lib/jquery.js');
+    this.copy('ember.js', 'resource/js/lib/ember.js');
+    this.copy('handlebars.js', 'resource/js/lib/handlebars.js');
+    this.copy('_index.html', 'index.html');
     this.copy('_gruntfile.js', 'Gruntfile.js');
 
     var context = {
