@@ -8,10 +8,10 @@ module.exports = yeoman.generators.Base.extend({
 
     var prompts = [{
       name: 'appName',
-      message: 'What is your app\'s name ?'
+      message: 'What is your app\'s name?'
     },{
       name: 'author',
-      message: 'What is the author\'s name'
+      message: 'What is the author\'s name?'
     }];
 
     this.prompt(prompts, function (props) {
