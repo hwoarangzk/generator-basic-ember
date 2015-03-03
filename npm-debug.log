@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@2.0.0
+3 info using node@v0.11.14
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add spec="." args=[".",null]
+8 verbose parsed spec { raw: '.',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: null,
+8 verbose parsed spec   rawSpec: '.',
+8 verbose parsed spec   spec: 'C:\\projects\\generator-basic-ember',
+8 verbose parsed spec   type: 'local' }
+9 verbose cache add local package C:\projects\generator-basic-ember
+10 silly lockFile 3a52ce78- .
+11 verbose lock . C:\Users\lenovo\AppData\Roaming\npm-cache\3a52ce78-.lock
+12 verbose tar pack [ 'C:\\Users\\lenovo\\AppData\\Roaming\\npm-cache\\generator-basic-ember\\0.0.0\\package.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball C:\Users\lenovo\AppData\Roaming\npm-cache\generator-basic-ember\0.0.0\package.tgz
+14 verbose folder .
+15 info prepublish generator-basic-ember@0.0.0
+16 silly lockFile 1f1177db-tar tar://.
+17 verbose lock tar://. C:\Users\lenovo\AppData\Roaming\npm-cache\1f1177db-tar.lock
+18 silly lockFile 8686f7dc-or-basic-ember-0-0-0-package-tgz tar://C:\Users\lenovo\AppData\Roaming\npm-cache\generator-basic-ember\0.0.0\package.tgz
+19 verbose lock tar://C:\Users\lenovo\AppData\Roaming\npm-cache\generator-basic-ember\0.0.0\package.tgz C:\Users\lenovo\AppData\Roaming\npm-cache\8686f7dc-or-basic-ember-0-0-0-package-tgz.lock
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 1f1177db-tar tar://.
+22 silly lockFile 8686f7dc-or-basic-ember-0-0-0-package-tgz tar://C:\Users\lenovo\AppData\Roaming\npm-cache\generator-basic-ember\0.0.0\package.tgz
+23 silly lockFile 8686f7dc-or-basic-ember-0-0-0-package-tgz tar://C:\Users\lenovo\AppData\Roaming\npm-cache\generator-basic-ember\0.0.0\package.tgz
+24 silly lockFile fa9592eb-erator-basic-ember-0-0-0-package c:\Users\lenovo\AppData\Roaming\npm-cache\generator-basic-ember\0.0.0\package
+25 verbose lock c:\Users\lenovo\AppData\Roaming\npm-cache\generator-basic-ember\0.0.0\package C:\Users\lenovo\AppData\Roaming\npm-cache\fa9592eb-erator-basic-ember-0-0-0-package.lock
+26 silly lockFile fa9592eb-erator-basic-ember-0-0-0-package c:\Users\lenovo\AppData\Roaming\npm-cache\generator-basic-ember\0.0.0\package
+27 silly lockFile fa9592eb-erator-basic-ember-0-0-0-package c:\Users\lenovo\AppData\Roaming\npm-cache\generator-basic-ember\0.0.0\package
+28 silly lockFile 3a52ce78- .
+29 silly lockFile 3a52ce78- .
+30 silly publish { name: 'generator-basic-ember',
+30 silly publish   version: '0.0.0',
+30 silly publish   description: 'Yeoman generator for Ember web app',
+30 silly publish   license: 'MIT',
+30 silly publish   main: 'app/index.js',
+30 silly publish   repository:
+30 silly publish    { type: 'git',
+30 silly publish      url: 'https://github.com/hwoarangzk/generator-basic-ember' },
+30 silly publish   author: '',
+30 silly publish   engines: { node: '>=0.10.0' },
+30 silly publish   scripts: { test: 'mocha' },
+30 silly publish   files: [ 'app' ],
+30 silly publish   keywords: [ 'yeoman-generator' ],
+30 silly publish   dependencies:
+30 silly publish    { 'yeoman-generator': '^0.18.0',
+30 silly publish      chalk: '^0.5.0',
+30 silly publish      yosay: '^0.3.0' },
+30 silly publish   devDependencies: { mocha: '*' },
+30 silly publish   peerDependencies: { yo: '>=1.0.0' },
+30 silly publish   readme: '# generator-basic-ember\r\nA simple ember-based application scaffolding generator\r\n\r\nIncluding: `grunt-ember-templates `, `grunt-contrib-watch `, `grunt-css-sprite`\r\n',
+30 silly publish   readmeFilename: 'README.md',
+30 silly publish   gitHead: '5d0fe40f653d7b1bafea4754289a284862869ad1',
+30 silly publish   bugs: { url: 'https://github.com/hwoarangzk/generator-basic-ember/issues' },
+30 silly publish   homepage: 'https://github.com/hwoarangzk/generator-basic-ember',
+30 silly publish   _id: 'generator-basic-ember@0.0.0',
+30 silly publish   _shasum: '13a50af033bde44f2373ce903f226e0d2e9b13c0',
+30 silly publish   _from: '.' }
+31 verbose mapToRegistry name generator-basic-ember
+32 verbose mapToRegistry uri https://registry.npmjs.org/generator-basic-ember
+33 verbose publish registryBase https://registry.npmjs.org/
+34 verbose request on initialization, where is /generator-basic-ember
+35 verbose request after pass 1, where is /generator-basic-ember
+36 verbose request url raw /generator-basic-ember
+37 verbose request resolving registry [ 'https://registry.npmjs.org/', './generator-basic-ember' ]
+38 verbose request after pass 2, where is https://registry.npmjs.org/generator-basic-ember
+39 verbose request sending authorization for write operation
+40 info attempt registry request try #1 at 22:43:58
+41 verbose request id 420a401f4012d50c
+42 http request PUT https://registry.npmjs.org/generator-basic-ember
+43 http 403 https://registry.npmjs.org/generator-basic-ember
+44 verbose headers { date: 'Tue, 03 Mar 2015 14:44:03 GMT',
+44 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+44 verbose headers   'content-type': 'application/json',
+44 verbose headers   'cache-control': 'max-age=60',
+44 verbose headers   'content-length': '2792',
+44 verbose headers   'accept-ranges': 'bytes',
+44 verbose headers   via: '1.1 varnish',
+44 verbose headers   'x-served-by': 'cache-nrt6125-NRT',
+44 verbose headers   'x-cache': 'MISS',
+44 verbose headers   'x-cache-hits': '0',
+44 verbose headers   'x-timer': 'S1425393841.510490,VS0,VE1602',
+44 verbose headers   connection: 'close' }
+45 error publish Failed PUT 403
+46 verbose stack Error: forbidden cannot modify pre-existing version: 0.0.0
+46 verbose stack old={"name":"generator-basic-ember","version":"0.0.0","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"https://github.com/hwoarangzk/generator-basic-ember"},"author":"","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"^0.18.0","chalk":"^0.5.0","yosay":"^0.3.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"gitHead":"c9addead525631186686c603c40a9dcca8902430","bugs":{"url":"https://github.com/hwoarangzk/generator-basic-ember/issues"},"homepage":"https://github.com/hwoarangzk/generator-basic-ember","_id":"generator-basic-ember@0.0.0","_shasum":"5b132578228dc1888aeb3b9b0e7cef9401044041","_from":".","_npmVersion":"2.0.0","_npmUser":{"name":"hwoarangzk","email":"1345744500@qq.com"},"maintainers":[{"name":"hwoarangzk","email":"1345744500@qq.com"}],"dist":{"shasum":"5b132578228dc1888aeb3b9b0e7cef9401044041","tarball":"http://registry.npmjs.org/generator-basic-ember/-/generator-basic-ember-0.0.0.tgz"}}
+46 verbose stack new={"name":"generator-basic-ember","version":"0.0.0","description":"Yeoman generator for Ember web app","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"https://github.com/hwoarangzk/generator-basic-ember"},"author":"","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"^0.18.0","chalk":"^0.5.0","yosay":"^0.3.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"readme":"# generator-basic-ember\u000d\u000aA simple ember-based application scaffolding generator\u000d\u000a\u000d\u000aIncluding: `grunt-ember-templates `, `grunt-contrib-watch `, `grunt-css-sprite`\u000d\u000a","readmeFilename":"README.md","gitHead":"5d0fe40f653d7b1bafea4754289a284862869ad1","bugs":{"url":"https://github.com/hwoarangzk/generator-basic-ember/issues"},"homepage":"https://github.com/hwoarangzk/generator-basic-ember","_id":"generator-basic-ember@0.0.0","_shasum":"13a50af033bde44f2373ce903f226e0d2e9b13c0","_from":".","_npmVersion":"2.0.0","_npmUser":{"name":"hwoarangzk","email":"1345744500@qq.com"},"maintainers":[{"name":"hwoarangzk","email":"1345744500@qq.com"}],"dist":{"shasum":"13a50af033bde44f2373ce903f226e0d2e9b13c0","tarball":"http://registry.npmjs.org/generator-basic-ember/-/generator-basic-ember-0.0.0.tgz"}}: generator-basic-ember
+46 verbose stack     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:261:14)
+46 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:198:65)
+46 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
+46 verbose stack     at Request.emit (events.js:110:17)
+46 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1142:14)
+46 verbose stack     at Request.emit (events.js:129:20)
+46 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1096:12)
+46 verbose stack     at IncomingMessage.emit (events.js:129:20)
+46 verbose stack     at _stream_readable.js:907:16
+46 verbose stack     at process._tickCallback (node.js:372:11)
+47 verbose statusCode 403
+48 verbose pkgid generator-basic-ember
+49 verbose cwd C:\projects\generator-basic-ember
+50 error Windows_NT 6.1.7600
+51 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+52 error node v0.11.14
+53 error npm  v2.0.0
+54 error code E403
+55 error forbidden cannot modify pre-existing version: 0.0.0
+55 error old={"name":"generator-basic-ember","version":"0.0.0","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"https://github.com/hwoarangzk/generator-basic-ember"},"author":"","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"^0.18.0","chalk":"^0.5.0","yosay":"^0.3.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"gitHead":"c9addead525631186686c603c40a9dcca8902430","bugs":{"url":"https://github.com/hwoarangzk/generator-basic-ember/issues"},"homepage":"https://github.com/hwoarangzk/generator-basic-ember","_id":"generator-basic-ember@0.0.0","_shasum":"5b132578228dc1888aeb3b9b0e7cef9401044041","_from":".","_npmVersion":"2.0.0","_npmUser":{"name":"hwoarangzk","email":"1345744500@qq.com"},"maintainers":[{"name":"hwoarangzk","email":"1345744500@qq.com"}],"dist":{"shasum":"5b132578228dc1888aeb3b9b0e7cef9401044041","tarball":"http://registry.npmjs.org/generator-basic-ember/-/generator-basic-ember-0.0.0.tgz"}}
+55 error new={"name":"generator-basic-ember","version":"0.0.0","description":"Yeoman generator for Ember web app","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"https://github.com/hwoarangzk/generator-basic-ember"},"author":"","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"^0.18.0","chalk":"^0.5.0","yosay":"^0.3.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"readme":"# generator-basic-ember\u000d\u000aA simple ember-based application scaffolding generator\u000d\u000a\u000d\u000aIncluding: `grunt-ember-templates `, `grunt-contrib-watch `, `grunt-css-sprite`\u000d\u000a","readmeFilename":"README.md","gitHead":"5d0fe40f653d7b1bafea4754289a284862869ad1","bugs":{"url":"https://github.com/hwoarangzk/generator-basic-ember/issues"},"homepage":"https://github.com/hwoarangzk/generator-basic-ember","_id":"generator-basic-ember@0.0.0","_shasum":"13a50af033bde44f2373ce903f226e0d2e9b13c0","_from":".","_npmVersion":"2.0.0","_npmUser":{"name":"hwoarangzk","email":"1345744500@qq.com"},"maintainers":[{"name":"hwoarangzk","email":"1345744500@qq.com"}],"dist":{"shasum":"13a50af033bde44f2373ce903f226e0d2e9b13c0","tarball":"http://registry.npmjs.org/generator-basic-ember/-/generator-basic-ember-0.0.0.tgz"}}: generator-basic-ember
+56 error If you need help, you may report this error at:
+56 error     <http://github.com/npm/npm/issues>
+57 verbose exit [ 1, true ]
