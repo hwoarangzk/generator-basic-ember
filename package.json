@@ -1,7 +1,7 @@
 {
   "name": "generator-basic-ember",
   "version": "0.0.0",
-  "description": "Yeoman generator",
+  "description": "Yeoman generator for Ember web app",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "hwoarangzk/generator-basic-ember",
