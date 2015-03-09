@@ -46,17 +46,11 @@ module.exports = function(grunt) {
 					'publish/resource/js/controllers.js': 'resource/js/controllers/**/*.js',
 					'publish/resource/js/components.js': 'resource/js/components/**/*.js',
 					'publish/resource/js/models.js': 'resource/js/models/**/*.js',
-					//'resource/js/dist/helpers.js': 'resource/js/helpers/**/*.js',
 					'publish/resource/js/views.js': 'resource/js/views/**/*.js',
 					'publish/resource/js/utils.js': 'resource/js/util/**/*.js',
 					'publish/resource/js/routes.js': 'resource/js/routes/**/*.js',
                     'publish/resource/js/app.js': 'resource/js/app.js',
                     'publish/resource/js/router.js':'resource/js/router.js'
-                    // 'publish/resource/js/ember.js':'resource/js/lib/ember.js',
-                    // 'publish/resource/js/handlebars.js':'resource/js/lib/handlebars.js',
-                    // 'publish/resource/js/jquery.js':'resource/js/lib/jquery.js',
-                    // 'publish/resource/js/pathfinding.js':'resource/js/lib/pathfinding.js',
-                    // 'publish/resource/js/raphael.js':'resource/js/lib/raphael.js'
 				}
 			}
 		},
@@ -112,17 +106,7 @@ module.exports = function(grunt) {
 					ext: '.sprite.css'
 				}]
 			}
-		},
-        nodewebkit: {
-            options: {
-                build_dir: './build', // Where the build version of my node-webkit app is saved
-                mac: true, // We want to build it for mac
-                win: true, // We want to build it for win
-                linux32: false, // We don't need linux32
-                linux64: false, // We don't need linux64
-            },
-            src: './publish/**/*' // Your node-webkit app
-        }
+		}
     });
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-ember-templates');
@@ -130,8 +114,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-connect');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-css-sprite');
-    //grunt.loadNpmTasks('grunt-node-webkit-builder');
     // Default task(s).
     grunt.registerTask('default', ['uglify', 'sprite','cssmin','emberTemplates','watch']);
-    // grunt.registerTask('default', ['nodewebkit']);
 };

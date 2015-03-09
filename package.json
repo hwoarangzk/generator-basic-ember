@@ -1,14 +1,14 @@
 {
   "name": "generator-basic-ember",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Yeoman generator for Ember web app",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "hwoarangzk/generator-basic-ember",
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "hwoarangzk",
+    "email": "1345744500@qq.com",
+    "url": "https://github.com/hwoarangzk"
   },
   "engines": {
     "node": ">=0.10.0"
